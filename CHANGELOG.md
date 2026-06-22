@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/CloudAstro/terraform-azurerm-networking-stack/compare/v1.0.0...v1.1.0) (2026-06-22)
+
+
+### Features
+
+* bump tf and provider version ([#2](https://github.com/CloudAstro/terraform-azurerm-networking-stack/issues/2)) ([88e117f](https://github.com/CloudAstro/terraform-azurerm-networking-stack/commit/88e117fef9fc0932fed5b526d707b1e9a2d9e23e))
+
 ## 1.0.0 (2025-06-09)
 
 
