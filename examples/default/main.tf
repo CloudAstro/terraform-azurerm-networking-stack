@@ -1,6 +1,6 @@
 resource "azurerm_resource_group" "this" {
   name     = "azure-network-stack"
-  location = "germanycentral"
+  location = "germanywestcentral"
 }
 
 module "azure_networking_stack" {
@@ -16,6 +16,7 @@ module "azure_networking_stack" {
 
   subnets = {
     "subnet1" = {
+      name = "subnet1"
       address_prefixes                              = ["10.1.1.0/24"]
       default_outbound_access_enabled               = true
       private_endpoint_network_policies             = "Enabled"
